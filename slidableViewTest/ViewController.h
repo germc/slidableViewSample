@@ -8,6 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController{
+    UIViewController* leftViewController;
+    UIViewController* rightViewController;
+    UIViewController* middleViewController;
+    float oldX, oldY;
+    CGRect frame;
+    NSTimer* theTimer;
+    BOOL isRunning;
+    float currentTimes;
+}
 
 @end

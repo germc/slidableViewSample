@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		08D06A2017CDE77200C83E91 /* MiddleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D06A1E17CDE77200C83E91 /* MiddleViewController.m */; };
+		08D06A2117CDE77200C83E91 /* MiddleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08D06A1F17CDE77200C83E91 /* MiddleViewController.xib */; };
+		08D06A6917CF586600C83E91 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08D06A6817CF586600C83E91 /* QuartzCore.framework */; };
+		08D53F6D17D83652007B301E /* SlidableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D53F6C17D83652007B301E /* SlidableView.m */; };
 		08F152A817CC428800169BC2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08F152A717CC428800169BC2 /* UIKit.framework */; };
 		08F152AA17CC428800169BC2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08F152A917CC428800169BC2 /* Foundation.framework */; };
 		08F152AC17CC428800169BC2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08F152AB17CC428800169BC2 /* CoreGraphics.framework */; };
@@ -19,9 +23,19 @@
 		08F152C117CC428800169BC2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F152C017CC428800169BC2 /* ViewController.m */; };
 		08F152C417CC428800169BC2 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08F152C217CC428800169BC2 /* ViewController_iPhone.xib */; };
 		08F152C717CC428800169BC2 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08F152C517CC428800169BC2 /* ViewController_iPad.xib */; };
+		08F152D817CDA8D100169BC2 /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F152D617CDA8D100169BC2 /* LeftViewController.m */; };
+		08F152D917CDA8D100169BC2 /* LeftViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08F152D717CDA8D100169BC2 /* LeftViewController.xib */; };
+		08F152DD17CDA8EF00169BC2 /* RightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F152DB17CDA8EF00169BC2 /* RightViewController.m */; };
+		08F152DE17CDA8EF00169BC2 /* RightViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08F152DC17CDA8EF00169BC2 /* RightViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		08D06A1D17CDE77200C83E91 /* MiddleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiddleViewController.h; sourceTree = "<group>"; };
+		08D06A1E17CDE77200C83E91 /* MiddleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MiddleViewController.m; sourceTree = "<group>"; };
+		08D06A1F17CDE77200C83E91 /* MiddleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MiddleViewController.xib; sourceTree = "<group>"; };
+		08D06A6817CF586600C83E91 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		08D53F6B17D83652007B301E /* SlidableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlidableView.h; sourceTree = "<group>"; };
+		08D53F6C17D83652007B301E /* SlidableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlidableView.m; sourceTree = "<group>"; };
 		08F152A417CC428800169BC2 /* slidableViewTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = slidableViewTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08F152A717CC428800169BC2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		08F152A917CC428800169BC2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -39,6 +53,12 @@
 		08F152C017CC428800169BC2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		08F152C317CC428800169BC2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
 		08F152C617CC428800169BC2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		08F152D517CDA8D100169BC2 /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LeftViewController.h; path = ../LeftViewController.h; sourceTree = "<group>"; };
+		08F152D617CDA8D100169BC2 /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LeftViewController.m; path = ../LeftViewController.m; sourceTree = "<group>"; };
+		08F152D717CDA8D100169BC2 /* LeftViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LeftViewController.xib; path = ../LeftViewController.xib; sourceTree = "<group>"; };
+		08F152DA17CDA8EF00169BC2 /* RightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightViewController.h; sourceTree = "<group>"; };
+		08F152DB17CDA8EF00169BC2 /* RightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightViewController.m; sourceTree = "<group>"; };
+		08F152DC17CDA8EF00169BC2 /* RightViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RightViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08D06A6917CF586600C83E91 /* QuartzCore.framework in Frameworks */,
 				08F152A817CC428800169BC2 /* UIKit.framework in Frameworks */,
 				08F152AA17CC428800169BC2 /* Foundation.framework in Frameworks */,
 				08F152AC17CC428800169BC2 /* CoreGraphics.framework in Frameworks */,
@@ -58,6 +79,9 @@
 		08F1529B17CC428800169BC2 = {
 			isa = PBXGroup;
 			children = (
+				08D53F6B17D83652007B301E /* SlidableView.h */,
+				08D53F6C17D83652007B301E /* SlidableView.m */,
+				08D06A6817CF586600C83E91 /* QuartzCore.framework */,
 				08F152AD17CC428800169BC2 /* slidableViewTest */,
 				08F152A617CC428800169BC2 /* Frameworks */,
 				08F152A517CC428800169BC2 /* Products */,
@@ -91,6 +115,15 @@
 				08F152C017CC428800169BC2 /* ViewController.m */,
 				08F152C217CC428800169BC2 /* ViewController_iPhone.xib */,
 				08F152C517CC428800169BC2 /* ViewController_iPad.xib */,
+				08D06A1D17CDE77200C83E91 /* MiddleViewController.h */,
+				08D06A1E17CDE77200C83E91 /* MiddleViewController.m */,
+				08D06A1F17CDE77200C83E91 /* MiddleViewController.xib */,
+				08F152D517CDA8D100169BC2 /* LeftViewController.h */,
+				08F152D617CDA8D100169BC2 /* LeftViewController.m */,
+				08F152D717CDA8D100169BC2 /* LeftViewController.xib */,
+				08F152DA17CDA8EF00169BC2 /* RightViewController.h */,
+				08F152DB17CDA8EF00169BC2 /* RightViewController.m */,
+				08F152DC17CDA8EF00169BC2 /* RightViewController.xib */,
 				08F152AE17CC428800169BC2 /* Supporting Files */,
 			);
 			path = slidableViewTest;
@@ -167,6 +200,9 @@
 				08F152BE17CC428800169BC2 /* Default-568h@2x.png in Resources */,
 				08F152C417CC428800169BC2 /* ViewController_iPhone.xib in Resources */,
 				08F152C717CC428800169BC2 /* ViewController_iPad.xib in Resources */,
+				08F152D917CDA8D100169BC2 /* LeftViewController.xib in Resources */,
+				08F152DE17CDA8EF00169BC2 /* RightViewController.xib in Resources */,
+				08D06A2117CDE77200C83E91 /* MiddleViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,6 +216,10 @@
 				08F152B417CC428800169BC2 /* main.m in Sources */,
 				08F152B817CC428800169BC2 /* AppDelegate.m in Sources */,
 				08F152C117CC428800169BC2 /* ViewController.m in Sources */,
+				08F152D817CDA8D100169BC2 /* LeftViewController.m in Sources */,
+				08F152DD17CDA8EF00169BC2 /* RightViewController.m in Sources */,
+				08D06A2017CDE77200C83E91 /* MiddleViewController.m in Sources */,
+				08D53F6D17D83652007B301E /* SlidableView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +350,7 @@
 				08F152CC17CC428800169BC2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
