@@ -77,11 +77,19 @@
         NSLog(@"diff:%f",diff);
         
         if (diff>0.0 && middleViewController.view.frame.origin.x>0.0) {
+            //調整中間視窗左右移動時，背後視窗的順序
             [self.view bringSubviewToFront:rightViewController.view];
             [self.view bringSubviewToFront:middleViewController.view];
+            //製造漸亮的效果
+            float rightViewAlpha = 0.5+(middleViewController.view.frame.origin.x / 320.0);
+            rightViewController.view.alpha = rightViewAlpha;
+            leftViewController.view.alpha = 0.0;
         }else if(diff<=0.0 && middleViewController.view.frame.origin.x<0.0){
             [self.view bringSubviewToFront:leftViewController.view];
             [self.view bringSubviewToFront:middleViewController.view];
+            float leftViewAlpha = 0.5+(-middleViewController.view.frame.origin.x / 320.0);
+            leftViewController.view.alpha = leftViewAlpha;
+            rightViewController.view.alpha = 0.0;
         }
     }
 }
