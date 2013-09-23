@@ -81,7 +81,6 @@
 			children = (
 				08D53F6B17D83652007B301E /* SlidableView.h */,
 				08D53F6C17D83652007B301E /* SlidableView.m */,
-				08D06A6817CF586600C83E91 /* QuartzCore.framework */,
 				08F152AD17CC428800169BC2 /* slidableViewTest */,
 				08F152A617CC428800169BC2 /* Frameworks */,
 				08F152A517CC428800169BC2 /* Products */,
@@ -99,6 +98,7 @@
 		08F152A617CC428800169BC2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				08D06A6817CF586600C83E91 /* QuartzCore.framework */,
 				08F152A717CC428800169BC2 /* UIKit.framework */,
 				08F152A917CC428800169BC2 /* Foundation.framework */,
 				08F152AB17CC428800169BC2 /* CoreGraphics.framework */,

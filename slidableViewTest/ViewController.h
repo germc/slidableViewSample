@@ -13,8 +13,6 @@
     UIViewController* rightViewController;
     UIViewController* middleViewController;
     float oldX, oldY;
-    CGRect frame;
-    NSTimer* theTimer;
     BOOL isRunning;
     float currentTimes;
 }
